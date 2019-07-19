@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Axolotl.AspNetCore22\Axolotl.AspNetCore22.csproj" />
+    <ProjectReference Include="..\..\src\Axolotl.TypeScriptWriter\Axolotl.TypeScriptWriter.csproj" />
+    <ProjectReference Include="..\..\src\Axolotl\Axolotl.csproj" />
+    <ProjectReference Include="..\Example.WebApi\Example.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>
